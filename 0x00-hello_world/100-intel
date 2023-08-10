@@ -1,2 +1,4 @@
 #!/bin/bash
-nasm -f elf -o ${CFILE%.c}.o -l ${CFILE%.c}.lst ${CFILE%.c}.s
+#!/bin/bash
+gcc -S -masm=intel "$CFILE"
+ -o ${CFILE%.c}.s
