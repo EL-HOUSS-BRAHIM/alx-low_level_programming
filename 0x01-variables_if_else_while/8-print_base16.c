@@ -5,15 +5,14 @@
 */
 int main(void)
 {
-int n;
-char lowercase;
-for (n = 0; n >= 9; n++)
+char n;
+for (n = '0'; n <= '9'; n++)
 {
 putchar(n);
 }
-for (lowercase = 'a'; n >= 'f'; lowercase++)
+for (n = 'a'; n <= 'f'; n++)
 {
-putchar(lowercase);
+putchar(n);
 }
 putchar('\n');
 return (0);
