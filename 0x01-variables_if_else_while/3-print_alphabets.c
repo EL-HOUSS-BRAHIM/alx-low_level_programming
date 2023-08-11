@@ -5,15 +5,15 @@
 */
 int main(void)
 {
-char letter;
-for (letter = 'a'; letter <= 'z'; letter++)
+char lowercase;
+char uppercase;
+for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 {
-putchar(letter);
+putchar(lowercase);
 }
-char LETTER;
-for (LETTER = 'A'; LETTER <= 'Z'; LETTER++)
+for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
 {
-putchar(LETTER);
+putchar(uppercase);
 }
 putchar('\n');
 return (0);
