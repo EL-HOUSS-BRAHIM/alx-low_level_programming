@@ -5,10 +5,13 @@
 */
 int main(void)
 {
-int n;
-for (n = '0'; n <= '9'; n++)
+char lowercase;
+for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 {
-putchar(n + '0');
+if (lowercase != 'q' && lowercase != 'e')
+{
+putchar(lowercase);
+}
 }
 putchar('\n');
 return (0);
