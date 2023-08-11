@@ -11,6 +11,16 @@ int main(void)
 int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-printf("The value of n is: %d\n", n);
+if (n > 0)
+{
+printf("The value of n is: %d and it is positive\n", n);
+}
+if(n == 0)
+{
+printf("The value of n is: %d and it is zero\n", n);
+}
+else{
+printf("The value of n is: %d and it is negative\n", n);
+}   
 return (0);
 }
