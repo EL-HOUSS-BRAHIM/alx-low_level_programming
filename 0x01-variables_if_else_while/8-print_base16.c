@@ -13,7 +13,7 @@ putchar(n);
 }
 for (lowercase = 'a'; n >= 'f'; lowercase++)
 {
-putchar(lowercase)
+putchar(lowercase);
 }
 putchar('\n');
 return (0);
