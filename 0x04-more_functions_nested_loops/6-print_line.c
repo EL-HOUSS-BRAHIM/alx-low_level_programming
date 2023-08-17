@@ -1,8 +1,7 @@
 #include "main.h"
-
 /**
- *main
- *
+ * print_line - Prints a line of underscores.
+ * @n: The number of times to print the underscore character.
  */
 void print_line(int n)
 {
