@@ -4,8 +4,6 @@
 /**
  * print_rev - function that prints a string, in reverse.
  * @s: a string.
- * @length: the length of the string.
- * @i: print the string in reverse
  * Return: Print string.
  */
 void print_rev(char *s)
