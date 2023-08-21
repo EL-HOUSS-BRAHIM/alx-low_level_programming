@@ -2,20 +2,21 @@
 #include <stdio.h>
 
 /**
- * _puts - a function that prints a string.
- * @str: a string.
- *
+ * print_rev - a function that prints a string, in reverse, followed by a new line.
+ * @s: a string.
+ * @length: the length of the string.
+ * @i: print the string in reverse
  * Return: Print string.
  */
 void print_rev(char *s)
 {
-int i;
 int length = 0;
 while (s[length] != '\0')
 {
 length++;
 }
-for (i = length -1; i >= 0; i--)
+int i;
+for (i = length - 1; i >= 0; i--)
 {
 putchar(s[i]);
 }
