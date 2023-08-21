@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * puts_half - a function that prints a string.
  * @str: a string.
@@ -8,14 +7,22 @@
  */
 void puts_half(char *str)
 {
-int i = 5;
+int length = 0;
+int half;
+int i;
+while (str[length] != '\0')
+{
+length++;
+}
+half = length / 2;
+i = half; 
 while (str[i] != '\0')
 {
-if (i <= 9)
+if (i <= length)
 {
 _putchar(str[i]);
 }
 i++;
 }
-putchar('\n');
+_putchar('\n');
 }
