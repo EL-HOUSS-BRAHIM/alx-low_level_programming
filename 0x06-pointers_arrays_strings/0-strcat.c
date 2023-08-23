@@ -14,12 +14,12 @@ while (*ptr != '\0')
 {
 ptr++;
 }
-while (*src != '\n')
+while (*src != '\0')
 {
 *ptr = *src;
 ptr++;
 src++;
 }
-*ptr = '\n';
+*ptr = '\0';
 return (dest);
 }
