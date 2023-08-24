@@ -4,9 +4,7 @@
  * @s1: The first string.
  * @s2: The second string.
  *
- * Return: An integer less than, equal to, or greater\
- than 0, depending on
- * the comparison result (similar to strcmp).
+ * Return: An integer.
  */
 int _strcmp(char *s1, char *s2)
 {
