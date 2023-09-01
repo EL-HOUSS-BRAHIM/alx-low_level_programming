@@ -10,7 +10,7 @@
 int main(int argc, char *argv[])
 {
     for (int i = 0; i < argc; i++) {
-        printf("%s\n", argv[i]); // Print each command-line argument
+        printf("%s\n", argv[i]);
     }
-    return 0; // Return 0 to indicate success
+    return 0
 }

@@ -11,13 +11,12 @@
 int main(int argc, char *argv[])
 {
     if (argc != 3) {
-        printf("Error\n"); // Print an error message if the number of arguments is not 3
-        return 1; // Return 1 to indicate an error
+        printf("Error\n");
+        return (1);
     }
+    int num1 = atoi(argv[1]);
+    int num2 = atoi(argv[2]);
 
-    int num1 = atoi(argv[1]); // Convert the first argument to an integer
-    int num2 = atoi(argv[2]); // Convert the second argument to an integer
-
-    printf("%d\n", num1 * num2); // Print the result of the multiplication
-    return 0; // Return 0 to indicate success
+    printf("%d\n", num1 * num2);
+    return (0);
 }

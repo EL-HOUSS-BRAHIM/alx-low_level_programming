@@ -9,6 +9,6 @@
  */
 int main(int argc, char *argv[])
 {
-    printf("%d\n", argc - 1); // Print the count of arguments excluding the program name
-    return 0; // Return 0 to indicate success
+    printf("%d\n", argc - 1);
+    return 0;
 }

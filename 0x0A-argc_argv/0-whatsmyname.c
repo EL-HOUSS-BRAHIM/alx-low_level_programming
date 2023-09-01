@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-    (void)argc; // Unused parameter, suppress compiler warning
-    printf("%s\n", argv[0]); // Print the program name
-    return 0; // Return 0 to indicate success
+    (void)argc;
+    printf("%s\n", argv[0]);
+    return 0;
 }
