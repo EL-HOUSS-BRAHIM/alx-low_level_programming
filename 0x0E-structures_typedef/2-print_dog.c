@@ -2,7 +2,7 @@
 #include "dog.h"
 #include <stdlib.h>
 /**
- * print_dor - Print the elements of a struct dog.
+ * print_dog - Print the elements of a struct dog.
  * @d: Pointer to struct dog.
  */
 void print_dog(struct dog *d)
