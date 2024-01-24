@@ -3,7 +3,7 @@ SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 NAME = school
 RM = rm -f
-
+.PHONY: all clean oclean fclean re
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 clean:
